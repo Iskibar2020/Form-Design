@@ -30,8 +30,10 @@
     margin-right: 5px; 
     color: #29412c;
     margin-left: 5px;
-    
+    font-weight: bold;
 }
+
+
 
 .icon-text{
     float: left; 
