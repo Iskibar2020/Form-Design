@@ -25,9 +25,11 @@
 .fa-file-alt,
 .fa-chalkboard-teacher,
 .fa-clock,
-.fa-user-friends{
-    margin-right: 10px; 
+.fa-user-friends,
+.fa-globe{
+    margin-right: 5px; 
     color: #29412c;
+    margin-left: 5px;
     
 }
 
@@ -67,7 +69,6 @@
     background-color: #84dc9a;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 100px;
     margin-bottom: 100px;
     border-radius: 25px;
     width: 650px;
@@ -80,8 +81,12 @@
     width: 100%;
 }
 
+.inp{
+    padding-left: 0;
+}
+
 input[type=checkbox] {
-    transform: scale(1.5);
+    transform: scale(1);
 }
 
 
@@ -105,7 +110,8 @@ input[type=checkbox] {
 
 
 article {
-  margin: 50px;
+  margin: 25px;
+  margin-top: 25px;
   padding: 20px;
   font-family: sans-serif;
   color: #fff;
@@ -152,6 +158,12 @@ article::after{
     color: #29412c; 
     margin-left: 10px;
 }
+
+.input-outage-time{
+    color: #29412c; 
+    margin-left: 0px;
+}
+
 .attibute-odd{
     background-color: #f3f0f1; 
     padding: 20px;
@@ -164,6 +176,7 @@ article::after{
 
 .attribute{
     float: left; 
+    margin-right: 90px;
 }
 
 .attribute-header{
@@ -177,10 +190,4 @@ article::after{
     border-radius: 0px  0px 10px 10px;
     min-width: 650px;
 }
-/* input[type=text], select, textarea {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    resize: vertical;
-  } */
+
