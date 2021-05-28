@@ -1,0 +1,175 @@
+.title{
+    margin-top:10px; 
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.fa-ban, 
+.fa-sync-alt,
+.fa-check-circle{
+    color: #699c7e;
+    background-color: #29412c;
+    padding: 7px;
+    border-radius: 50%;
+}
+
+.fa-check-circle{
+    color: #84dc9a;
+    background-color: white;
+    padding: 7px;
+    border-radius: 50%;
+}
+
+
+.fa-file-alt,
+.fa-chalkboard-teacher,
+.fa-clock,
+.fa-user-friends{
+    margin-right: 10px; 
+    color: #29412c;
+}
+
+.icon-text{
+    float: left; 
+    color: #29412c;
+    font-size: 15px;
+}
+
+.icon-text-checkbox{
+    margin-left: 5px;
+}
+
+.icon{
+    min-height: 10px;
+    padding: 0;
+}
+
+.icon p{
+    color: white;
+}
+
+.icon h1{
+    display: flex;
+    flex-direction: row;
+}
+
+.card{
+    background-color: #84dc9a;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-radius: 25px;
+    width: 650px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+
+.input{
+    width: 100%;
+}
+
+input[type=checkbox] {
+    transform: scale(1.5);
+}
+
+.des{
+    background-color: red;
+    min-height: 50px;
+    margin: 5px;
+    text-align: center;
+}
+
+
+.row .icons{
+    padding: 0;
+    margin:0;
+    float: left;
+    padding-top: 10px;
+}
+.row p{
+    text-align: center;
+}
+
+.icon h1:before,
+.icon h1:after {
+    content: "";
+    flex: 1 1;
+    border-bottom: 2px dotted rgb(255, 255, 255);
+    margin: auto;
+}
+
+
+article {
+  margin: 50px;
+  padding: 20px;
+  font-family: sans-serif;
+  color: #fff;
+  position: relative;
+  background: linear-gradient(-135deg, transparent 1.5em, white 0) no-repeat;
+  background-repeat: no-repeat;
+  border-radius: none;
+  
+}
+
+article::after{
+  content: '';
+  width: 2.13em;
+  height: 2.15em;
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: inline-block;
+  background: linear-gradient(-135deg, transparent 1.5em, #24432c 0) no-repeat;
+  border-bottom-left-radius: 5px;
+  background-repeat: no-repeat;
+  
+}
+
+.problem-form{
+    background-color: white; 
+    margin:0px;
+}
+
+.main-form{
+    margin-left: 20px; 
+}
+
+.input-header{
+    margin-left: 5px;
+}
+
+.input-attribute{
+    color: #29412c; 
+    margin-left: 10px;
+}
+
+.input-attribute{
+    color: #29412c; 
+    margin-left: 10px;
+}
+.attibute-odd{
+    background-color: #f3f0f1; 
+    padding: 20px;
+}
+
+.attibute-even{
+    background-color: white; 
+    padding: 20px;
+}
+
+.attribute{
+    float: left; 
+}
+
+.attribute-header{
+    color: #29412c; 
+    margin-left: 10px;
+}
+
+.image{
+    background-image: url('img.jpg'); 
+    min-height: 400px;
+    border-radius: 0px  0px 10px 10px;
+}

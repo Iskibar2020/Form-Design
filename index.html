@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Page</title>
+
+    <!-- Font Awesome  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/6c25be6311.js" crossorigin="anonymous"></script>
+    
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
+
+    <!-- Internal Sheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="card d-flex flex-column">
+        <!-- Title of the form -->
+        <div class="title">
+            <input type="text" id="from-title" placeholder="Input the title">
+        </div>
+
+        <!-- Icons -->
+        <div class="container">
+            <div class="row icons">
+                <div class="col-4 icon">
+                    <div><h1><i class="fas fa-ban"></i></h1></div>
+                    <div><p>Initial</p></div>
+                </div>
+                <div class="col-4 icon">
+                    <div><h1><i class="fas fa-sync-alt"></h1></i></div>
+                    <div><p>Update</p></div>
+                </div>
+                <div class="col-4 icon">
+                    <div><h1><i class="far fa-check-circle"></i></h1></div>
+                    <div><p>Final</p></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Problem Form -->
+        <article >
+            <div class="row problem-form">
+                <!-- Description -->
+                <div class="row">
+                    <div class="container main-form">
+                        <div class="row input-header">
+                            <div><i class="fas fa-file-alt"></i></div> 
+                            <p class="icon-text">DESCRIPTION</p></i>
+                        </div>
+                    </div>
+                    <div class="container main-form" >
+                        <textarea id="description" rows="10" cols="55"> 
+                        </textarea>
+                    </div>
+                </div>
+
+                <!-- Mitigation -->
+                <div class="row">
+                    <div class="container main-form">
+                        <div class="row input-header">
+                            <div><i class="fas fa-chalkboard-teacher"></i></div> 
+                            <p class="icon-text">MITIGATION</p></i>
+                        </div>
+                    </div>
+                    <div class="container main-form">
+                        <textarea id="mitigation" rows="5" cols="55"> 
+                        </textarea>
+                    </div>
+                </div>
+            </div>
+        </article>
+
+        <!-- Attributes -->
+        <div class="attibute-odd">
+            <div class="row attribute">
+                <div class="row input-attribute">
+                    <div><i class="far fa-clock fa-x"></i></div> 
+                    <p class="icon-text">OUTAGE TIME</p></i>
+                </div>
+                <div class="container">
+                    <input type="text" id="outage-time" placeholder="">
+                </div>
+            </div>
+            <div class="row attribute">
+                <div >
+                    <p class="icon-text">TICKET NUMBER</p>    
+                </div>
+                <div class="container">
+                    <input type="text" id="ticket-number" placeholder="">
+                </div>
+            </div>
+        </div>
+        
+        <!-- Impact of Cusomer -->
+        <div class="attibute-even">
+            <div class="row attribute">
+                <div class="row input-attribute">
+                    <div><i class="fas fa-user-friends"></i></div> 
+                    <p class="icon-text">IMPACTED CUSTOMER</p></i>
+                </div>
+                <div class="container">
+                    <input type="text" id="from-title" placeholder="">
+                </div>
+            </div>
+            <div class="row attribute">
+                <div class="row icon-text">
+                    <div>
+                        <input type="checkbox" id="impact-checkbox">
+                        <label for="vehicle1" class="icon-text-checkbox"> NA</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Business Impact -->
+        <div class="attibute-odd">
+            <div class="row attribute">
+                <div class="row input-attribute">
+                    <div><p class="icon-text">BUSINESS IMPACT</p></div>   
+                </div>
+                <div class="container">
+                    <textarea id="mitigation" rows="5" cols="85"> 
+                    </textarea>
+                </div>
+            </div>
+        </div>
+
+        <!-- Place Images -->
+        <div class="container image">
+        </div>
+    </div>
+    
+    
+</body>
+</html>
