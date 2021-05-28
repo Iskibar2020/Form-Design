@@ -2,7 +2,6 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML Page</title>
 
@@ -67,48 +66,62 @@
         </article>
 
         <!-- Attributes -->
-        <div class="attibute-odd">
-            <div class="attribute">
+        <div class="attibute-odd col-lg-12">
+            <div class="attribute col-lg-4">
                 <div class="row input-attribute">
                     <div><i class="fas fa-clock"></i></div> 
                     <p class="icon-text">OUTAGE TIME</p></i>
                 </div>
-                <div class="col-lg-6">
+                <div >
                     <input type="text" id="outage-time" placeholder="">
                 </div>
             </div>
-            <div class="attribute">
+            <div class="attribute col-lg-4">
                 <div class="row input-attribute"> 
                     <p class="icon-text">TICKET NUMBER</p></i>
                 </div>
-                <div class="col-lg-6">
+                <div>
                     <input type="text" id="outage-time" placeholder="">
                 </div>
             </div>
         </div>
        
         <!-- Impact of Cusomer -->
-        <div class="attibute-even">
-            <div class="attribute">
+        <div class="attibute-even col-lg-12">
+            <div class="attribute col-lg-4">
                 <div class="row input-attribute">
                     <div><i class="fas fa-user-friends"></i></div> 
                     <p class="icon-text">IMPACTED CUSTOMER(S)</p></i>
                 </div>
-                <div class="col-lg-6">
+                <div class="col-lg-6 inp">
                     <input type="text" id="outage-time" placeholder="">
                 </div>
             </div>
-            <div class="attribute">
+            <div class="attribute col-lg-4">
                 <div class="row input-attribute">
                     <div><i class="fas fa-globe"></i></div> 
                     <p class="icon-text">IMPACTED REGION(S)</p></i>
                 </div>
-                <div class="col-lg-6">
+                <div class="col-lg-6 inp">
                     <input type="text" id="outage-time" placeholder="">
                 </div>
             </div>
         </div>
 
+        <div class="container">
+            <form>
+              <div class="form-group row">
+                <div class="col-xs-4" style="margin-left: auto; margin-right: auto;">
+                  <label for="ex2"><i class="fas fa-user-friends"> IMPACTED CUSTOMER(S)</i></label>
+                  <input class="form-control" id="ex2" type="text">
+                </div>
+                <div class="col-xs-4" style="margin-left: auto; margin-right: auto;">
+                  <label for="ex3"><i class="fas fa-globe"></i>IMPACTED REGION(S)</label>
+                  <input class="form-control" id="ex3" type="text">
+                </div>
+              </div>
+            </form>
+        </div>
         <!-- Business Impact -->
         <div class="attibute-odd">
             <div class="col-lg-12">

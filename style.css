@@ -36,7 +36,7 @@
 .icon-text{
     float: left; 
     color: #29412c;
-    font-size: 15px;
+    font-size: 12px;
     font-weight: bold;
 }
 
@@ -76,17 +76,8 @@
 }
 
 
-
-.input{
-    width: 100%;
-}
-
 .inp{
     padding-left: 0;
-}
-
-input[type=checkbox] {
-    transform: scale(1);
 }
 
 
@@ -176,7 +167,7 @@ article::after{
 
 .attribute{
     float: left; 
-    margin-right: 90px;
+    margin-right: 45px;
 }
 
 .attribute-header{
@@ -191,3 +182,5 @@ article::after{
     min-width: 650px;
 }
 
+
+  
