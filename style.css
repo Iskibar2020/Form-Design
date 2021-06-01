@@ -26,7 +26,8 @@
 .fa-chalkboard-teacher,
 .fa-clock,
 .fa-user-friends,
-.fa-globe{
+.fa-globe,
+.fa-gift{
     margin-right: 5px; 
     color: #29412c;
     margin-left: 5px;
@@ -68,9 +69,10 @@
 }
 
 .card{
-    background-color: #84dc9a;
+    background-color: #00B5E2;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 100px;
     margin-bottom: 100px;
     border-radius: 25px;
     width: 650px;
