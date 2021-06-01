@@ -180,11 +180,9 @@ article::after{
 }
 
 .image{
-    background-image: url('img.jpg'); 
-    min-height: 400px;
     border-radius: 0px  0px 10px 10px;
-    min-width: 650px;
+    min-width: 650px;   
+    padding: 75px;
+    background-color: white;
+
 }
-
-
-  
